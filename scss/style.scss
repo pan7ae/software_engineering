@@ -3,6 +3,7 @@
 	--yellow-primary-semitransparent: rgba(235, 205, 58, 0.8);
 	--green-primary: rgba(96, 187, 56, 1);
 	--font-primary: "Open Sans", sans-serif;
+	--background-semitransparent: rgba(245, 245, 245, 0.6);
 }
 
 //Header
@@ -68,4 +69,49 @@ header {
 }
 
 .content {
+}
+
+.meal-list {
+	background-color: var(--background-semitransparent);
+	padding: 0 80px;
+}
+
+h1 {
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 49px;
+	color: #000;
+
+	padding-top: 46px;
+}
+
+h2 {
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 41px;
+	color: #000;
+}
+
+.meal-card {
+	margin: 50px 0;
+}
+
+.about {
+	margin-left: -36px;
+}
+
+.meal-description {
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000;
+	letter-spacing: -0.015em;
+
+	margin-top: 22px;
 }
