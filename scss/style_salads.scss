@@ -81,7 +81,7 @@ body {
 }
 
 .content {
-	background-image: url(/img/salads/image_1.png), url(/img/salads/image_2.png);
+	background-image: url(../img/salads/image_1.png), url(../img/salads/image_2.png);
 	background-repeat: no-repeat, no-repeat;
 	background-size: 872px 872px, 857px 612px;
 	background-position: -58% 168px, 145% 876px;
@@ -93,6 +93,7 @@ body {
 .meal-list {
 	background-color: var(--background-semitransparent);
 	padding: 40px 80px;
+	margin-bottom: 102px;
 }
 
 h1 {

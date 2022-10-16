@@ -83,7 +83,7 @@ body {
 }
 
 .content {
-  background-image: url(/img/homepage/image_1.png), url(/img/homepage/image_2.png), url(/img/homepage/image_3.png);
+  background-image: url(../img/homepage/image_1.png), url(../img/homepage/image_2.png), url(../img/homepage/image_3.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 300px 275px, 930px 1003px, 895px 853px;
   background-position: 5% 830px, -71% 75px, 120% 120%;
@@ -94,6 +94,7 @@ body {
 .meal-list {
   background-color: var(--background-semitransparent);
   padding: 40px 80px;
+  margin-bottom: 102px;
 }
 
 h1 {

@@ -6,9 +6,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Delicious cuisine</title>
-	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="../css/nullstyle.css">
 	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
-	<link rel="stylesheet" href="css/style_salads.css">
+	<link rel="stylesheet" href="../css/style_second.css">
 
 </head>
 
@@ -17,24 +17,25 @@
 		<div class="container">
 			<div class="row header">
 				<div class="col-xl-2 logo">
-					<a href="index.html">
-						<img src="img/logo1.svg" alt="Delicious cuisine" srcset="">
+					<a href="../index.html">
+						<img src="../img/logo1.svg" alt="Delicious cuisine" srcset="">
 					</a>
 				</div>
 				<div class="col-xl-2 category">
 					<a href="salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
 				</div>
 				<div class="col-xl-2 category">
-					<a href="first.html" onclick="chooseCategory(this)" class="category-link">Первые блюда</a>
+					<a href="first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
 				</div>
 				<div class="col-xl-2 category">
-					<a href="#2" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+					<a href="second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
 				</div>
 				<div class="col-xl-2 category">
-					<a href="#3" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+					<a href="dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
 				</div>
 				<div class="col-xl-2 category">
-					<a href="#4" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+					<a href="drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
 				</div>
 			</div>
 		</div>
@@ -43,65 +44,64 @@
 	<div class="content">
 		<div class="container">
 			<div class="meal-list">
-				<h1>Салаты</h1>
+				<h1>Вторые блюда</h1>
 				<div class="meal-card row">
 					<div class="col-xl-5">
-						<img src="img/menu/salads/1.png" alt="">
-						<div class="type">Быстро</div>
+						<img src="../img/menu/second/1.png" alt="">
+						<div class="empty"></div>
 
 					</div>
 					<div class=" col-xl-1"></div>
 					<div class="col-xl-6 about ">
-						<h2>Салат с обжаренными томатами</h2>
+						<h2>Пельмени домашние классические</h2>
 						<div class="meal-description">
-							Салат с жареными помидорами пробовали? На первый взгляд, весьма странная практика. Но на
-							деле получается интересный салат (или, скорее, легкая закуска).
+							Очень вкусные, для всей семьи, на обед и на ужин!
+							Пельмени классические домашние хотя и долго готовить, но очень удобно хранить.
 						</div>
 					</div>
 				</div>
 
 				<div class="meal-card row">
 					<div class="col-xl-5">
-						<img src="img/menu/salads/2.png" alt="">
+						<img src="../img/menu/second/2.png" alt="">
 						<div class="type">Быстро</div>
 					</div>
 					<div class="col-xl-1"></div>
 					<div class="col-xl-6 about">
-						<h2>Салат с сухариками "Королевский"</h2>
+						<h2>Жаренная картошка</h2>
 						<div class="meal-description">
-							Гости будут довольны. А главное, этот салат очень быстро делать.
-							Рецепт очень пригодится в качестве салата на день рождения.
+							Один из самых популярных вариантов приготовления картофеля
+							на сковороде - жареная картошка с луком.
 						</div>
 					</div>
 				</div>
 
 				<div class="meal-card row">
 					<div class="col-xl-5">
-						<img src="img/menu/salads/3.png" alt="">
+						<img src="../img/menu/second/3.png" alt="">
 						<div class="empty" style="left: 286px; top: -300px;"></div>
 					</div>
 					<div class="col-xl-1"></div>
 					<div class="col-xl-6 about ">
-						<h2>Тёплый салат с курицей, сладким перцем и помидорами</h2>
+						<h2>Стейки из красной рыбы<br>(в духовке)</h2>
 						<div class="meal-description">
-							Мясо и овощи - прекрасное сочетание для полноценного приема пищи. Сочные помидоры и
-							кусочки
-							печёного болгарского перца делают салат сочным и насыщают его яркими летними красками.
+							Рецепт приготовления запеченных стейков из красной рыбы: семги, форели, горбуши... Рыба
+							красивая, нежная, очень вкусная.
 						</div>
 					</div>
 				</div>
 
 				<div class="meal-card row">
 					<div class="col-xl-5">
-						<img src="img/menu/salads/4.png" alt="">
-						<div style="height: 42px"></div>
+						<img src="../img/menu/second/4.png" alt="">
+						<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира
+						</div>
 					</div>
 					<div class="col-xl-1"></div>
 					<div class="col-xl-6 about ">
-						<h2>Салат с ветчиной </h2>
+						<h2>Бёф бургиньон</h2>
 						<div class="meal-description">
-							Бёф бургиньон является одним из тех крестьянских блюд французской кухни, которые со
-							временем
+							Бёф бургиньон является одним из тех крестьянских блюд французской кухни, которые со временем
 							стали считаться полноправными представителями так называемой «высокой кухни».
 						</div>
 					</div>

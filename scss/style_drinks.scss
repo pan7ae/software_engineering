@@ -70,17 +70,22 @@ header {
 }
 
 body {
+	// max-width: 3000px;
 	width: 100%;
+	// margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
+	// background-image: url(/img/salads/image_1.png), url(/img/salads/image_2.png);
+	// background-repeat: no-repeat, no-repeat;
+	// background-size: 872px 872px, 857px 612px;
+	// background-position: -346px 168px, 1916px 959px;
 }
 
 .content {
-	background-image: url(../img/homepage/image_1.png), url(../img/homepage/image_2.png),
-		url(../img/homepage/image_3.png);
-	background-repeat: no-repeat, no-repeat, no-repeat;
-	background-size: 300px 275px, 930px 1003px, 895px 853px;
-	background-position: 5% 830px, -71% 75px, 120% 120%;
+	background-image: url(../img/drinks/image_1.png), url(../img/drinks/image_2.png);
+	background-repeat: no-repeat, no-repeat;
+	background-size: 424px 822px, 822px 484px;
+	background-position: 0 50px, 110% 1140px;
 
 	width: 1536px;
 	margin: 0 auto;
@@ -99,6 +104,7 @@ h1 {
 	font-size: 36px;
 	line-height: 49px;
 	color: #000;
+	margin-bottom: 30px;
 }
 
 h2 {
@@ -111,7 +117,11 @@ h2 {
 }
 
 .meal-card {
-	margin: 30px 0;
+	// margin: 30px 0;
+
+	img {
+		width: 100%;
+	}
 }
 
 .about {
@@ -151,4 +161,32 @@ footer {
 		align-items: center;
 		letter-spacing: -0.015em;
 	}
+}
+
+.type {
+	position: relative;
+	// width: 131px;
+	height: 42px;
+	left: 286px;
+	top: -300px;
+
+	background-color: var(--yellow-primary);
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-family: var(--font-primary);
+	color: #fff;
+	white-space: nowrap;
+
+	padding: 0 38px;
+	width: min-content;
+}
+
+.empty {
+	background-color: #fff;
+	height: 42px;
+	left: 286px;
+	top: -300px;
 }

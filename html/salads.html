@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../css/style_salads.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../index.html">
+						<img src="../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<h1>Салаты</h1>
+				<div class="meal-card row">
+					<div class="col-xl-5">
+						<img src="../img/menu/salads/1.png" alt="">
+						<div class="type">Быстро</div>
+
+					</div>
+					<div class=" col-xl-1"></div>
+					<div class="col-xl-6 about ">
+						<h2>Салат с обжаренными томатами</h2>
+						<div class="meal-description">
+							Салат с жареными помидорами пробовали? На первый взгляд, весьма странная практика. Но на
+							деле получается интересный салат (или, скорее, легкая закуска).
+						</div>
+					</div>
+				</div>
+
+				<div class="meal-card row">
+					<div class="col-xl-5">
+						<img src="../img/menu/salads/2.png" alt="">
+						<div class="type">Быстро</div>
+					</div>
+					<div class="col-xl-1"></div>
+					<div class="col-xl-6 about">
+						<h2>Салат с сухариками "Королевский"</h2>
+						<div class="meal-description">
+							Гости будут довольны. А главное, этот салат очень быстро делать.
+							Рецепт очень пригодится в качестве салата на день рождения.
+						</div>
+					</div>
+				</div>
+
+				<div class="meal-card row">
+					<div class="col-xl-5">
+						<img src="../img/menu/salads/3.png" alt="">
+						<div class="empty" style="left: 286px; top: -300px;"></div>
+					</div>
+					<div class="col-xl-1"></div>
+					<div class="col-xl-6 about ">
+						<h2>Тёплый салат с курицей, сладким перцем и помидорами</h2>
+						<div class="meal-description">
+							Мясо и овощи - прекрасное сочетание для полноценного приема пищи. Сочные помидоры и
+							кусочки
+							печёного болгарского перца делают салат сочным и насыщают его яркими летними красками.
+						</div>
+					</div>
+				</div>
+
+				<div class="meal-card row">
+					<div class="col-xl-5">
+						<img src="../img/menu/salads/4.png" alt="">
+						<div style="height: 42px"></div>
+					</div>
+					<div class="col-xl-1"></div>
+					<div class="col-xl-6 about ">
+						<h2>Салат с ветчиной </h2>
+						<div class="meal-description">
+							Бёф бургиньон является одним из тех крестьянских блюд французской кухни, которые со
+							временем
+							стали считаться полноправными представителями так называемой «высокой кухни».
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

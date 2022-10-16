@@ -83,10 +83,10 @@ body {
 }
 
 .content {
-  background-image: url(../img/salads/image_1.png), url(../img/salads/image_2.png);
+  background-image: url(../img/second/image_1.png), url(../img/second/image_2.png);
   background-repeat: no-repeat, no-repeat;
-  background-size: 872px 872px, 857px 612px;
-  background-position: -58% 168px, 145% 876px;
+  background-size: 653px 955px, 954px 739px;
+  background-position: -20% 50px, 110% 900px;
   width: 1536px;
   margin: 0 auto;
 }
@@ -169,7 +169,6 @@ footer {
 
 .type {
   position: relative;
-  width: 131px;
   height: 42px;
   left: 286px;
   top: -300px;
@@ -186,6 +185,11 @@ footer {
           align-items: center;
   font-family: var(--font-primary);
   color: #fff;
+  white-space: nowrap;
+  padding: 0 38px;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 .empty {
