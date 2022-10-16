@@ -83,10 +83,10 @@ body {
 }
 
 .content {
-  background-image: url(/img/homepage/image_1.png), url(/img/homepage/image_2.png), url(/img/homepage/image_3.png);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 300px 275px, 930px 1003px, 895px 853px;
-  background-position: 5% 830px, -71% 75px, 120% 120%;
+  background-image: url(/img/salads/image_1.png), url(/img/salads/image_2.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 872px 872px, 857px 612px;
+  background-position: -58% 168px, 145% 876px;
   width: 1536px;
   margin: 0 auto;
 }
@@ -103,6 +103,7 @@ h1 {
   font-size: 36px;
   line-height: 49px;
   color: #000;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -114,8 +115,8 @@ h2 {
   color: #000;
 }
 
-.meal-card {
-  margin: 30px 0;
+.meal-card img {
+  width: 100%;
 }
 
 .about {
@@ -163,4 +164,32 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: -0.015em;
+}
+
+.type {
+  position: relative;
+  width: 131px;
+  height: 42px;
+  left: 286px;
+  top: -300px;
+  background-color: var(--yellow-primary);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: var(--font-primary);
+  color: #fff;
+}
+
+.empty {
+  background-color: #fff;
+  height: 42px;
+  left: 286px;
+  top: -300px;
 }
