@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/salads.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../salads.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Тёплый салат с курицей, сладким перцем и помидорами</h1>
+					<!-- <div class="type">Быстро</div> -->
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/salads/3.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>35 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>6 порций</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Филе куриное - 400 г<br>
+							Перец болгарский - 1 шт.<br>
+							Помидоры - 300 г<br>
+							Листья салата - 1 пучок<br>
+							Кунжут - 1 ст. ложка<br>
+							Соус соевый - 50 мл<br>
+							Масло оливковое - 3 ст. ложки<br>
+							Уксус бальзамический - 1 ст. ложка<br>
+							Укроп свежий - 2-3 веточки<br>
+							Соль - 1/3 ч. ложки<br>
+							Перец чёрный молотый - на кончике ножа
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Острым ножом нарежьте куриное филе тонкими пластинками толщиной примерно 5-7 мм.</li>
+						<li>Выложите куриное филе в миску. Добавьте соль, чёрный перец и соевый соус. Перемешайте.
+							Оставьте куриное мясо мариноваться на 10-20 минут. </li>
+						<li>Обжарьте замаринованное куриное филе на оливковом масле до румяности с одной стороны,
+							примерно 5-7 минут.</li>
+						<li>Затем переверните кусочки куриного мяса и продолжайте жарить ещё 5 минут. </li>
+						<li>Пока обжаривается куриное филе, сладкий перец нарежьте небольшими кусочками произвольной
+							формы.</li>
+						<li>На оставшемся после обжарки филе масле слегка обжарьте сладкий перец в течение 3 минут,
+							постоянно помешивая.</li>
+						<li>Листья салата вымойте, обсушите, порвите руками на крупные кусочки и выложите на тарелку для
+							подачи.</li>
+						<li>Помидоры нарежьте небольшими дольками.</li>
+						<li>Сверху выложите кусочки печёного перца. Поверх овощей разложите ещё тёплые кусочки куриного
+							мяса.</li>
+						<li>Украсьте салат зеленью укропа и полейте бальзамическим уксусом.</li>
+						<li>Посыпьте тёплый салат с курицей, печёным болгарским перцем и помидорами кунжутом.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

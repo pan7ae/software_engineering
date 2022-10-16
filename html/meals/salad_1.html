@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/salads.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../salads.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Салат с обжаренными томатами</h1>
+					<div class="type">Быстро</div>
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/salads/1.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>30 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>2 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Помидоры - 400 г<br>
+							Смесь салатных листьев
+							- 75 г<br>
+							Чеснок
+							- 1 зубчик<br>
+							Натуральный йогурт
+							- 200 мл<br>
+							Оливковое масло
+							- 55 мл<br>
+							Соль
+							- по вкусу<br>
+							Молотый черный перец
+							- по вкусу
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Помидоры среднего размера нарезать кольцами толщиной около сантиметра. Разогреть сковороду,
+							влить чуть-чуть оливкового масла и обжарить ломтики томатов до появления корочки, а затем
+							снять с огня.</li>
+						<li>Смешать натуральный йогурт с 50 мл оливкового масла. Зубчик чеснока раздавить ножом,
+							разобрать на волокна и мелко нарезать. Добавить нарубленный чеснок к йогурту с маслом,
+							посолить и поперчить по вкусу.</li>
+						<li>Заправить получившимся соусом смесь салатных листьев, украсить кольцами обжаренных томатов и
+							подавать, когда они чуть остынут — или еще горячими, это уже дело вкуса.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

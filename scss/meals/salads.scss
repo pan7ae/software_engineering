@@ -5,6 +5,7 @@
 	--font-primary: "Open Sans", sans-serif;
 	--background-semitransparent: rgba(245, 245, 245, 0.6);
 	--footer-background: rgba(217, 217, 217, 0.15);
+	--back-button: rgba(217, 217, 217, 1);
 }
 
 //Header
@@ -81,19 +82,20 @@ body {
 }
 
 .content {
-	background-image: url(../img/salads/image_1.png), url(../img/salads/image_2.png);
+	background-image: url(../img/salads/img_1.png), url(../img/salads/img_2.png);
 	background-repeat: no-repeat, no-repeat;
 	background-size: 872px 872px, 857px 612px;
-	background-position: -58% 168px, 145% 876px;
+	background-position: -18% -70px, 105% 80%;
 
 	width: 1536px;
 	margin: 0 auto;
 }
 
 .meal-list {
-	background-color: var(--background-semitransparent);
+	// background-color: var(--background-semitransparent);
 	padding: 40px 80px;
 	margin-bottom: 102px;
+	// display: inline;
 }
 
 h1 {
@@ -103,7 +105,7 @@ h1 {
 	font-size: 36px;
 	line-height: 49px;
 	color: #000;
-	margin-bottom: 30px;
+	// margin-bottom: 30px;
 }
 
 h2 {
@@ -113,6 +115,18 @@ h2 {
 	font-size: 30px;
 	line-height: 41px;
 	color: #000;
+}
+
+h3 {
+	margin: 80px auto;
+
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 41px;
+	letter-spacing: -0.015em;
+	color: var(--green-primary);
 }
 
 .meal-card {
@@ -163,11 +177,11 @@ footer {
 }
 
 .type {
-	position: relative;
+	// position: relative;
 	// width: 131px;
 	height: 42px;
-	left: 286px;
-	top: -300px;
+	// left: 286px;
+	// top: -300px;
 
 	background-color: var(--yellow-primary);
 	border-radius: 20px;
@@ -187,4 +201,108 @@ footer {
 	height: 42px;
 	left: 286px;
 	top: -300px;
+}
+
+.name {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+
+	float: left;
+	width: 100%;
+	margin: 16px auto;
+}
+
+.back {
+	display: inline-flex;
+	align-items: center;
+
+	background-color: var(--back-button);
+	border-radius: 20px;
+	width: 108px;
+	height: 34px;
+
+	padding: 5px 13px;
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: -0.015em;
+
+	&:visited {
+		color: #000;
+	}
+}
+
+.description {
+	margin-bottom: 50px;
+	img {
+		width: 500px;
+		// height: 500px;
+	}
+}
+
+.recipe {
+	// display: inline-flex;
+}
+
+.time {
+	margin: 10px auto;
+
+	p {
+		margin-left: 11px;
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: -0.015em;
+	}
+
+	img {
+		width: 20px;
+	}
+}
+
+.people {
+	margin: 10px auto;
+
+	p {
+		margin-left: 11px;
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: -0.015em;
+	}
+
+	img {
+		width: 20px;
+	}
+}
+
+.ingridients {
+	font-family: var(--font-primary);
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 27px;
+	letter-spacing: -0.015em;
+
+	margin: 17px auto;
+}
+
+.recipe {
+	ol {
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 300;
+		font-size: 17px;
+		line-height: 27px;
+		letter-spacing: -0.015em;
+
+		padding: 8px;
+	}
 }
