@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/dessert.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../dessert.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Классический тирамису</h1>
+					<!-- <div class="type">Быстро</div> -->
+					<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира</div>
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/dessert/4.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>6 часов (ваши 20 мин)</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>2 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Печенье савоярди - 10 шт. (80-90 г)<br>
+							Сыр маскарпоне - 120 г<br>
+							Сливки 33% (охлаждённые) - 70 мл<br>
+							Сахарная пудра - 1 ст. ложка<br>
+							Кофе растворимый - 1 ч. ложка<br>
+							Шоколад молочный или темный - 25 г<br>
+							Коньяк (по желанию) - 1 ст. ложка
+
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>В 80 мл горячей воды растворите кофе, остудите. (При желании можете добавить в кофе коньяк.)
+						</li>
+						<li>Сливки (охлажденные) перелейте в глубокую емкость и взбейте блендером до устойчивых пиков.
+							Добавьте сахарную пудру (по вкусу, можно больше, чем указано в рецепте), перемешайте.</li>
+						<li>Маскарпоне добавьте ко взбитым сливкам и перемешайте крем ложкой или венчиком блендера на
+							малой скорости до однородности.</li>
+						<li>Крем для тирамису должен получиться в меру густым и держаться на ложке.</li>
+						<li>Окунайте печенье савоярди в кофе одной стороной и выкладывайте в контейнер или в порционные
+							креманки влажной стороной вверх, печенье постепенно равномерно пропитается.</li>
+						<li>Сверху распределите половину крема.</li>
+						<li>Сделайте еще один слой из печенья, смоченного в кофе. Также выкладывайте его влажной
+							стороной вверх.</li>
+						<li>Выложите оставшийся крем.</li>
+						<li>Сверху натрите на крупной терке шоколад. (Можно посыпать тирамису какао-порошком или какао,
+							смешанным с сахаром.)
+						</li>
+						<li>Приготовленный десерт тирамису поставьте в холодильник пропитываться на 5-6 часов или на
+							ночь.</li>
+						<li>После того как тирамису хорошо пропитается, достаньте десерт из холодильника, нарежьте в
+							контейнере и аккуратно выложите порционно на тарелки.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

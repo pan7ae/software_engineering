@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/dessert.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../dessert.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Шарлотка с яблоками</h1>
+					<div class="type">Быстро</div>
+					<!-- <div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира</div> -->
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/dessert/1.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>50 мин (ваши 20 мин)</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>8 порций</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Яблоки (желательно кислые) - 500-600 г<br>
+							Сахар - 160 г<br>
+							Мука пшеничная - 160 г<br>
+							Яйца - 4 больших или 5 маленьких<br>
+							Соль - 1 щепотка
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Взбить яйца с сахаром и щепоткой соли в светлую густую массу. Чтобы убедиться, что масса уже
+							хорошо взбилась, проведите линию венчиком. Если она остаётся видимой в течение 1-2 секунд, а
+							потом растекается, то яйца с сахаром уже хорошо взбиты. Если же она сразу растекается, то
+							нужно взбивать еще.</li>
+						<li>Подготовить яблоки, вырезать из них середину, нарезать слайсами (или кубиками).</li>
+						<li>Муку частями просеивать в яично-сахарную смесь и аккуратно перемешивать лопаткой движениями
+							снизу вверх.
+							С бисквитным тестом нужно работать осторожно, чтобы сохранить по максимуму его воздушность.
+							(Также на этом этапе можно добавить в тесто 1 ст. ложку жирной сметаны или 1 ст. ложку
+							растопленного сливочного масла - таким образом, пирог будет влажнее.)</li>
+						<li>Форму (диаметр - 22 см) выстелить пергаментом или смазать сливочным маслом, припылить мукой.
+							Вылить 1/2 часть теста, разровнять.</li>
+						<li>Половину яблок, нарезанных дольками, выложить на тесто. Начинаем выкладывать дольки от
+							бортиков и двигаемся по спирали прямо к середине.</li>
+						<li>Сверху залить оставшимся тестом и таким же образом выложить оставшиеся яблоки. Также на этом
+							этапе вы можете присыпать пирог корицей, если любите, конечно.</li>
+						<li>Если нарезать яблоки кубиками, то можно их добавить в тесто, аккуратно перемешать и потом
+							выложить всю массу в форму для выпекания.</li>
+						<li>Выпекать яблочную шарлотку в течение 20-30 минут при температуре 180 градусов. Готовность
+							можно проверить деревянной шпажкой.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/second.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../second.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Стейки из красной рыбы (в духовке)</h1>
+					<!-- <div class="type">Быстро</div> -->
+					<!-- <div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира</div> -->
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/second/3.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>50 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>4 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Рыба красная - 4 стейка<br>
+							Соль крупная<br>
+							Сахар - 1 щепотка<br>
+							Имбирь сушеный молотый - 1 щепотка<br>
+							Перец черный молотый<br>
+							Масло оливковое или подсолнечное<br>
+							Зелень - для подачи
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Красную рыбу очищаем от чешуи и нарезаем стейками толщиной до 2 см.</li>
+						<li>Выкладываем рыбу на противень, застеленный пергаментом. Хорошо солим рыбу с двух сторон.
+							Посыпаем щепоткой сахара, черным молотым перцем по вкусу и щепоткой молотого имбиря. Руками
+							хорошо вбиваем специи в стейки.</li>
+						<li>Поливаем маслом. Оставляем на 5-10 минут, чтобы рыба замариновалась, а тем временем
+							разогреваем духовку до 200 градусов.</li>
+						<li>Запекаем красную рыбу в духовке 30 минут.</li>
+						<li>Готовые стейки выкладываем на блюдо, украшенное зеленью. </li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

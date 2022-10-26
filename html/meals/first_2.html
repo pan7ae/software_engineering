@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/first.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../first.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Суп куриный</h1>
+					<!-- <div class="type">Быстро</div> -->
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/first/2.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>40 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>6 порций</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Курица - 1 шт<br>
+							Картофель - 3 шт<br>
+							Репчатый лук - 2 шт<br>
+							Морковь - 1 шт<br>
+							Укроп<br>
+							Растительное масло<br>
+							Черный молотый перец<br>
+							Соль
+							- по вкусу<br>
+							Лавровый лист
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Курицу рубим на кусочки.. Складываем их в кастрюлю, в которой будем варить суп. Заливаем
+							холодной водой и ставим на огонь.</li>
+						<li>Тем временем режем мелкими кубиками лук и морковь.</li>
+						<li>Отправляем лук на сковороду, в предварительно разогретое масло. Пассеруем до золотистого
+							цвета.</li>
+						<li>Затем отправляем к нему морковь. Обжариваем до мягкости, после чего выключаем огонь.</li>
+						<li>После того как курица закипит, снимаем пенку, уменьшаем огонь до среднего и продолжаем
+							варить до готовности, не давая сильно кипеть.</li>
+						<li>После того как курица сварится вынимаем ее из бульона. Снимаем мясо с костей.</li>
+						<li>Картофель нарезаем небольшими кусочками. Кладем в бульон картофель и куриное мясо.</li>
+						<li>Добавляем соль, лавровый лист и продолжаем варить суп до готовности картофеля.</li>
+						<li>За 5-10 минут до готовности добавляем луково-морковную зажарку и черный перец по вкусу.</li>
+						<li>Рубим мелко укроп. Так же добавляем в суп и варим на медленном огне еще около минуты.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/second.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../second.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Жаренная картошка</h1>
+					<div class="type">Быстро</div>
+					<!-- <div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира	</div> -->
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/second/2.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>30 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>2 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Картофель - 760 г (600 г в очищенном виде)<br>
+							Лук репчатый - 180 г<br>
+							Чеснок - 1 зубчик<br>
+							Соль - по вкусу<br>
+							Масло растительное (для жарки) - 3-4 ст. ложки (50 мл)
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Картофель очистите, вымойте и обсушите с помощью бумажного или чистого кухонного полотенца.
+							Картофель должен стать абсолютно сухим.</li>
+						<li>Нарежьте картофель брусочками среднего размера.</li>
+						<li>В сковороде на большом огне хорошенько разогрейте растительное масло. Выложите нарезанный
+							картофель в сковороду и разровняйте. Жарьте картошку примерно 4-5 минут, не перемешивая, до
+							тех
+							пор, пока нижняя сторона картофельных брусочков не подрумянится.</li>
+						<li>Перемешайте и жарьте ещё 4-5 минут.</li>
+						<li>Снова перемешайте. Теперь картофель будет иметь более-менее равномерную золотистость. Лук
+							очистите и нарежьте четвертькольцами.</li>
+						<li>Добавьте лук к картофелю. Уменьшите нагрев до среднего.</li>
+						<li>Теперь жарьте картофель с луком, перемешивая каждую минуту, до тех пор, пока лук не станет
+							мягким и поджаристым, а кусочки картофеля при надавливании не будут легко разламываться.
+							Посолите.
+						</li>
+						<li>Чеснок очистите и выдавите через пресс в сковороду (это по желанию).
+							Перемешайте.</li>
+						<li>Убавьте нагрев до минимума и готовьте картошку ещё примерно 3 минуты, пока чеснок не
+							раскроет
+							свой аромат.</li>
+						<li>Вот и всё - жареная картошка готова!</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

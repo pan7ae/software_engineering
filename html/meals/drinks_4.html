@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/drinks.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../drinks.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Какао-флип</h1>
+					<!-- <div class="type">Быстро</div> -->
+					<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира</div>
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/drinks/4.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>10 мин</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>2 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Какао-порошок - 2 ст. ложки (20 г)<br>
+							Молоко (или сливки) - 150 мл<br>
+							Вода - 150 мл<br>
+							Желток - 1 шт.<br>
+							Сахар - 45 г (3 ст. ложки)
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку. При желании молоко можно заменить сливками.</li>
+						<li>В миске соедините сахар и яичный желток.</li>
+						<li>Взбейте смесь венчиком или миксером примерно 1-2 минуты, до побеления и пышности.</li>
+						<li>Молоко налейте в сотейник, поставьте на средний нагрев и доведите практически до кипения.
+							Затем выключите огонь и на время перелейте горячие сливки (или молоко) обратно в молочник.
+						</li>
+						<li>В сотейник налейте холодную воду и всыпьте какао. Поставьте на средний нагрев, доведите
+							смесь до кипения и, помешивая, проварите примерно 1 минуту.</li>
+						<li>Влейте в сотейник горячее молоко. Взбейте смесь венчиком примерно 10-15 секунд, до получения
+							лёгкой пенки.</li>
+						<li>Постоянно помешивая венчиком, добавляйте примерно по 1 ст. ложке горячего какао в
+							яично-сахарную смесь. Таким образом добавьте в яично-сахарную смесь примерно 100 мл какао.
+						</li>
+						<li>Влейте получившуюся смесь в сотейник с какао и взбейте венчиком примерно 30-40 секунд, до
+							получения пышной пенки.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delicious cuisine</title>
+	<link rel="stylesheet" href="../../css/nullstyle.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="../../css/second.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row header">
+				<div class="col-xl-2 logo">
+					<a href="../../index.html">
+						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+					</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
+						блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
+				</div>
+				<div class="col-xl-2 category">
+					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="meal-list">
+				<a href="../second.html" class="back">
+					<img src="../../img/symbols/arrow-left.png" alt="" srcset="">
+					<p>Назад</p>
+				</a>
+				<div class="name">
+					<h1>Бёф бургиньон</h1>
+					<!-- <div class="type">Быстро</div> -->
+					<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира</div>
+				</div>
+
+				<div class="description row">
+					<div class="col-xl-7">
+						<img src="../../img/menu/second/4.png" alt="">
+					</div>
+					<div class="col-xl-5 column">
+						<div class="time row">
+							<img src="../../img/symbols/clock.png" alt="">
+							<p>3.5 часа</p>
+						</div>
+						<div class="people row">
+							<img src="../../img/symbols/users.png" alt="" srcset="">
+							<p>4 порции</p>
+						</div>
+						<h2>Ингридиенты:</h2>
+						<p class="ingridients">
+							Сливочное масло - 50 гр.<br>
+							Говядина - 800 гр.<br>
+							Мука - 2 ст.л.<br>
+							Грудка - 120 гр.<br>
+							Чеснок - 2 зубчика<br>
+							Маленькие луковицы - 6-8 шт.<br>
+							Морковь - 4 средних<br>
+							Говяжий бульон - 250 гр.<br>
+							Красное сухое вино - 1 бут.<br>
+							Свежие шампиньоны - 15 шт.
+						</p>
+					</div>
+
+				</div>
+				<div class="recipe col-xl-10">
+					<h1>Пошаговый рецепт</h1>
+					<ol>
+						<li>Подготовьте продукты по списку.</li>
+						<li>Прежде всего порубите крупно говядину. Куски делайте 5х5 см или даже побольше.</li>
+						<li>Грибы (лучше всего свежие, 15 шт.) порежьте на 4-6 частей.</li>
+						<li>Растопите на среднем огне сливочное масло (50 гр.) в просторной сковороде с толстым дном.
+						</li>
+						<li>Обжаривайте кубик говядины со всех сторон до появления румяной корочки. Если мяса много,
+							жарьте в несколько заходов. Нам нужно, чтобы у кусочков было пространство, иначе мясо начнёт
+							тушиться, а не обжариваться.</li>
+						<li>В самом конце посыпьте всё двумя столовыми ложками муки. И хорошо перемешав, обжарьте ещё
+							минуту.</li>
+						<li>Выньте мясо и в этой же сковороде обжарьте грудку (или мелко рубленный бекон, 120 гр.) с
+							парой зубчиков рубленного чеснока.</li>
+						<li>Следом отправьте морковь (2-4 шт.) порезанную на кольца толщиной 4-5 мм и 6-8 маленьких
+							луковиц (или 2 средних). Часть луковиц я мелко порубил, остальные добавил целыми.</li>
+						<li>Жарим минут 5-7, чтобы овощи стали мягче. Не пугайтесь, что на дне может образоваться
+							корочка, это только плюс для будущего вкуса. Дальше возвращаем мясо.</li>
+						<li>Помешиваем минуту и добавляем говяжий бульон (или кипяток, 250 гр.).</li>
+						<li>Доведите всё до кипения и влейте красное сухое вино (бургундское, конечно же) — 500-600 мл.
+						</li>
+						<li>Можно добавить букет трав (лавровый лист, тмин, петрушка). Готовим 1,5-2 часа на маленьком
+							огне. До тех пор, пока мясо не станет очень мягким, а жидкость прилично выпарится, соус
+							должен стать густым. В последние минут 15 добавляем грибы.</li>
+						<li>Если соус будет недостаточно густым, можно добавить ещё муки, или сделать огонь сильнее,
+							ускорив выпаривание. Подавайте мгновенно с картофельным пюре и свежей зеленью.</li>
+					</ol>
+				</div>
+
+				<h3>Приятного аппетита</h3>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="footer_">
+					<p class="footer__text">
+						2022 Delicious cuisine &mdash; Рецепты вкусных блюд
+					</p>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
