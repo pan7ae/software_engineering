@@ -14,42 +14,48 @@
 
 <body>
 	<header>
-		<div class="container">
-			<div class="row header">
-				<div class="col-xl-2 logo">
-					<a href="index.html">
-						<img src="img/logo1.svg" alt="Delicious cuisine" srcset="">
-					</a>
-				</div>
-				<div class="col-xl-2 category">
+		<div class="top-nav container">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/logo1.svg" alt="Delicious cuisine" srcset="">
+				</a>
+			</div>
+			<input id="menu-toggle" type="checkbox" />
+			<label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+			</label>
+			<ul class="menu">
+				<li class="category">
 					<a href="html/salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="html/first.html" onclick="chooseCategory(this)" class="category-link">Первые
 						блюда</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="html/second.html" onclick="chooseCategory(this)" class="category-link">Вторые
 						блюда</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="html/dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="html/drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</header>
+
+
 
 	<div class="content">
 		<div class="container">
 			<div class="meal-list">
 				<h1>Популярные рецепты</h1>
-				<a class="meal-card row" href="html/meals/second_1.html">
+				<a class="meal-card" href="html/meals/second_1.html">
 					<img class="col-xl-5" src="img/menu/popular/1.png" alt="">
 					<div class="col-xl-1"></div>
-					<div class="col-xl-6 about ">
+					<div class="col-xl-6 about">
 						<h2>Пельмени домашние классические</h2>
 						<div class="meal-description">
 							Очень вкусные, для всей семьи, на обед и на ужин! Пельмени классические домашние хотя и
