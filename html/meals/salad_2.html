@@ -14,30 +14,35 @@
 
 <body>
 	<header>
-		<div class="container">
-			<div class="row header">
-				<div class="col-xl-2 logo">
-					<a href="../../index.html">
-						<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
-					</a>
-				</div>
-				<div class="col-xl-2 category">
+		<div class="top-nav container">
+			<div class="logo">
+				<a href="../../index.html">
+					<img src="../../img/logo1.svg" alt="Delicious cuisine" srcset="">
+				</a>
+			</div>
+			<input id="menu-toggle" type="checkbox" />
+			<label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+			</label>
+			<ul class="menu">
+				<li class="category">
 					<a href="../salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="../first.html" onclick="chooseCategory(this)" class="category-link">Первые
 						блюда</a>
-				</div>
-				<div class="col-xl-2 category">
-					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
+					<a href="../second.html" onclick="chooseCategory(this)" class="category-link">Вторые
+						блюда</a>
+				</li>
+				<li class="category">
 					<a href="../dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="../drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</header>
 
@@ -53,19 +58,35 @@
 					<div class="type">Быстро</div>
 				</div>
 
-				<div class="description row">
+				<div class="description">
 					<div class="col-xl-7">
-						<img src="../../img/menu/salads/2.png" alt="">
+						<div class="scaled_tp">
+							<div class="time row">
+								<img src="../../img/symbols/clock.png" alt="">
+								<p>15 мин</p>
+							</div>
+							<div class="people row">
+								<img src="../../img/symbols/users.png" alt="" srcset="">
+								<p>4 порции</p>
+							</div>
+						</div>
+						<div class="picture">
+							<img src="../../img/menu/salads/2.png" alt="">
+						</div>
+						<img id="picture" src="../../img/menu/salads/2.png" alt="">
 					</div>
 					<div class="col-xl-5 column">
-						<div class="time row">
-							<img src="../../img/symbols/clock.png" alt="">
-							<p>15 мин</p>
+						<div class="t_p">
+							<div class="time row">
+								<img src="../../img/symbols/clock.png" alt="">
+								<p>15 мин</p>
+							</div>
+							<div class="people row">
+								<img src="../../img/symbols/users.png" alt="" srcset="">
+								<p>4 порции</p>
+							</div>
 						</div>
-						<div class="people row">
-							<img src="../../img/symbols/users.png" alt="" srcset="">
-							<p>4 порции</p>
-						</div>
+
 						<h2>Ингридиенты:</h2>
 						<p class="ingridients">
 							Крабовые палочки - 240 г<br>

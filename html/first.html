@@ -14,30 +14,35 @@
 
 <body>
 	<header>
-		<div class="container">
-			<div class="row header">
-				<div class="col-xl-2 logo">
-					<a href="../index.html">
-						<img src="../img/logo1.svg" alt="Delicious cuisine" srcset="">
-					</a>
-				</div>
-				<div class="col-xl-2 category">
+		<div class="top-nav container">
+			<div class="logo">
+				<a href="../index.html">
+					<img src="../img/logo1.svg" alt="Delicious cuisine" srcset="">
+				</a>
+			</div>
+			<input id="menu-toggle" type="checkbox" />
+			<label class='menu-button-container' for="menu-toggle">
+				<div class='menu-button'></div>
+			</label>
+			<ul class="menu">
+				<li class="category">
 					<a href="salads.html" onclick="chooseCategory(this)" class="category-link">Салаты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="first.html" onclick="chooseCategory(this)" class="category-link">Первые
 						блюда</a>
-				</div>
-				<div class="col-xl-2 category">
-					<a href="second.html" onclick="chooseCategory(this)" class="category-link">Вторые блюда</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
+					<a href="second.html" onclick="chooseCategory(this)" class="category-link">Вторые
+						блюда</a>
+				</li>
+				<li class="category">
 					<a href="dessert.html" onclick="chooseCategory(this)" class="category-link">Десерты</a>
-				</div>
-				<div class="col-xl-2 category">
+				</li>
+				<li class="category">
 					<a href="drinks.html" onclick="chooseCategory(this)" class="category-link">Напитки</a>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</div>
 	</header>
 
@@ -45,14 +50,14 @@
 		<div class="container">
 			<div class="meal-list">
 				<h1>Первые блюда</h1>
-				<a class="meal-card row" href="meals/first_1.html">
-					<div class="col-xl-5">
+				<a class="meal-card" href="meals/first_1.html">
+					<div class="col-xl-5 col-sm-3">
 						<img src="../img/menu/first/1.png" alt="">
 						<div class="type">Быстро</div>
 
 					</div>
 					<div class=" col-xl-1"></div>
-					<div class="col-xl-6 about ">
+					<div class="col-xl-6 about col-sm-9">
 						<h2>Суп сырный</h2>
 						<div class="meal-description">
 							Легенда советской кулинарии, звезда студенческих кухонь — сырный суп. Он прекрасен своей
@@ -62,13 +67,13 @@
 					</div>
 				</a>
 
-				<a class="meal-card row" href="meals/first_2.html">
-					<div class="col-xl-5">
+				<a class="meal-card" href="meals/first_2.html">
+					<div class="col-xl-5 col-sm-3">
 						<img src="../img/menu/first/2.png" alt="">
 						<div class="empty"></div>
 					</div>
 					<div class="col-xl-1"></div>
-					<div class="col-xl-6 about">
+					<div class="col-xl-6 about col-sm-9">
 						<h2>Суп куриный</h2>
 						<div class="meal-description">
 							Из самых простых продуктов, легко и быстро, семье на обед!
@@ -77,13 +82,13 @@
 					</div>
 				</a>
 
-				<a class="meal-card row" href="meals/first_3.html">
-					<div class="col-xl-5">
+				<a class="meal-card" href="meals/first_3.html">
+					<div class="col-xl-5 col-sm-3">
 						<img src="../img/menu/first/3.png" alt="">
 						<div class="empty" style="left: 286px; top: -300px;"></div>
 					</div>
 					<div class="col-xl-1"></div>
-					<div class="col-xl-6 about ">
+					<div class="col-xl-6 about col-sm-9">
 						<h2>Борщ классический с мясом говядины и свинины</h2>
 						<div class="meal-description">
 							Из простых продуктов, вкусный, полезный, для всей семьи!
@@ -94,14 +99,14 @@
 					</div>
 				</a>
 
-				<a class="meal-card row" href="meals/first_4.html">
-					<div class="col-xl-5">
+				<a class="meal-card" href="meals/first_4.html">
+					<div class="col-xl-5 col-sm-3">
 						<img src="../img/menu/first/4.png" alt="">
-						<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 213px">Блюда стран мира
+						<div class="type" style="background-color: rgba(96, 187, 56, 1); left: 26px">Блюда стран мира
 						</div>
 					</div>
 					<div class="col-xl-1"></div>
-					<div class="col-xl-6 about ">
+					<div class="col-xl-6 about col-sm-9">
 						<h2>Вьетнамский суп «Фо» с курицей</h2>
 						<div class="meal-description">
 							Захотелось необычной восточной экзотики – приготовь суп Фо.
