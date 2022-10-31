@@ -353,19 +353,20 @@ body {
 		align-items: flex-start;
 
 		padding: 5px 0;
-		margin-bottom: 20px;
+		margin: 10px 0;
 		background-color: var(--background-semitransparent);
 
 		h2 {
 			font-style: normal;
 			font-weight: 600;
-			font-size: 23px;
-			line-height: 28px;
-			width: 350px;
+			font-size: 16px;
+			line-height: 18px;
+			// width: 350px;
 		}
 
 		div:first-child {
-			height: 160px;
+			// height: 160px;
+			height: 110px;
 			// margin: 0;
 			// width: 160px;
 			img {
@@ -382,12 +383,17 @@ body {
 	}
 
 	.type {
-		left: 88px;
-		top: -170px;
-		height: 22px;
-		font-size: 12px;
+		// left: 88px;
+		// top: -170px;
+
+		// Tested on iPhone 11
+		left: 65px;
+		top: -118px;
+
+		height: 16px;
+		font-size: 8px;
 		line-height: 22px;
-		padding: 0 19px;
+		padding: 0 10px;
 	}
 
 	.empty {
@@ -398,8 +404,8 @@ body {
 		margin-top: 0;
 		font-style: normal;
 		font-weight: 300;
-		font-size: 14px;
-		line-height: 16px;
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 	.category {
@@ -426,7 +432,17 @@ body {
 		padding: 0 40px;
 		.footer__text {
 			font-size: 16px;
-			line-height: 11px;
+			line-height: 18px;
 		}
+	}
+
+	h1 {
+		font-family: var(--font-primary);
+		font-style: normal;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 38px;
+		color: #000;
+		margin-bottom: 20px;
 	}
 }
