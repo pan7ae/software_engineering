@@ -169,7 +169,7 @@ footer {
 	position: relative;
 	// width: 131px;
 	height: 42px;
-	left: 320px;
+	left: 305px;
 	top: -320px;
 
 	background-color: var(--yellow-primary);
@@ -184,6 +184,11 @@ footer {
 
 	padding: 0 38px;
 	width: min-content;
+}
+
+.world {
+	background-color: rgba(96, 187, 56, 1);
+	left: 230px;
 }
 
 .empty {
@@ -389,6 +394,10 @@ body {
 		font-size: 8px;
 		line-height: 22px;
 		padding: 0 10px;
+	}
+
+	.world {
+		left: 24px;
 	}
 
 	.empty {
