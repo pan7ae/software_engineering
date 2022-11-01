@@ -112,6 +112,17 @@ h2 {
   color: #000;
 }
 
+.meal-card {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .meal-card img {
   width: 100%;
 }
@@ -166,8 +177,8 @@ footer {
 .type {
   position: relative;
   height: 42px;
-  left: 286px;
-  top: -300px;
+  left: 320px;
+  top: -320px;
   background-color: var(--yellow-primary);
   border-radius: 20px;
   display: -webkit-box;
@@ -181,6 +192,7 @@ footer {
           align-items: center;
   font-family: var(--font-primary);
   color: #fff;
+  white-space: nowrap;
   padding: 0 38px;
   width: -webkit-min-content;
   width: -moz-min-content;
